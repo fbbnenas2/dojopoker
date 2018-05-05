@@ -84,4 +84,36 @@ public class CartaUnitTest {
         Assert.assertTrue(mao.isQuadra(mao.getCartas()));
     }
 
+    @Test
+    public void testPar() {
+        Mao mao = new Mao();
+
+        List<Carta> cartasMao2 = new ArrayList<Carta>();
+        cartasMao2.add(CartaMock.criarCarta2C());
+        cartasMao2.add(CartaMock.criarCarta2D());
+        cartasMao2.add(CartaMock.criarCarta6S());
+        cartasMao2.add(CartaMock.criarCarta7S());
+        cartasMao2.add(CartaMock.criarCartaJD());
+
+        mao.setCartas(cartasMao2);
+
+        Assert.assertTrue(mao.isPar(mao.getCartas()));
+    }
+
+    @Test
+    public void testTrinca() {
+        Mao mao = new Mao();
+
+        List<Carta> cartasMao2 = new ArrayList<Carta>();
+        cartasMao2.add(CartaMock.criarCarta2C());
+        cartasMao2.add(CartaMock.criarCarta2D());
+        cartasMao2.add(CartaMock.criarCarta2C());
+        cartasMao2.add(CartaMock.criarCarta7S());
+        cartasMao2.add(CartaMock.criarCartaJD());
+
+        mao.setCartas(cartasMao2);
+
+        Assert.assertTrue(mao.isTrinca(mao.getCartas()));
+    }
+
 }

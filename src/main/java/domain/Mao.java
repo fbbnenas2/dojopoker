@@ -78,23 +78,34 @@ public class Mao {
         Carta carta2 = cartas.get(1);
         int tamanho2 = cartas.stream().filter(c -> { return c.getValor().equals(carta2.getValor());}).collect(Collectors.toList()).size();
 
-        System.out.println(tamanho1);
-        System.out.println(tamanho2);
-
-
-//        for(Carta cartaA : cartas) {
-//            for(Carta cartaB : cartas) {
-//                if(cartaA.getValor().equals(cartaB.getValor())){
-//                    contador++;
-//                }
-//            }
-//        }
-
-
         return tamanho1 == 4 || tamanho2 == 4;
     }
 
+    public Boolean isTrinca(List<Carta> cartas){
+        Boolean isQuadra = false;
+        int contador = 0;
 
+        final Carta carta1 = cartas.get(0);
+        int tamanho1 = cartas.stream().filter(c -> {return c.getValor().equals(carta1.getValor());}).collect(Collectors.toList()).size();
+
+        Carta carta2 = cartas.get(1);
+        int tamanho2 = cartas.stream().filter(c -> { return c.getValor().equals(carta2.getValor());}).collect(Collectors.toList()).size();
+
+        return tamanho1 == 3 || tamanho2 == 3;
+    }
+
+    public Boolean isPar(List<Carta> cartas){
+        Boolean isQuadra = false;
+        int contador = 0;
+
+        final Carta carta1 = cartas.get(0);
+        int tamanho1 = cartas.stream().filter(c -> {return c.getValor().equals(carta1.getValor());}).collect(Collectors.toList()).size();
+
+        Carta carta2 = cartas.get(1);
+        int tamanho2 = cartas.stream().filter(c -> { return c.getValor().equals(carta2.getValor());}).collect(Collectors.toList()).size();
+
+        return tamanho1 == 2 || tamanho2 == 2;
+    }
 
     private boolean isFlush(List<Carta> cartas) {
         boolean naipesIguais = true;
