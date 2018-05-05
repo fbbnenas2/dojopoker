@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab74d5dd-f77a-4456-98d3-fd85eb3d0179" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/READ.ME" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Mao.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Mao.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="READ.ME" pinned="false" current-in-tab="true">
+      <file leaf-file-name="READ.ME" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/READ.ME">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
@@ -85,17 +84,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mao.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/Mao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="109" column="45" lean-forward="false" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="45" />
+            <state relative-caret-position="155">
+              <caret line="117" column="52" lean-forward="true" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#273#274#0" expanded="true" />
                 <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#1131#1138#0" expanded="true" />
-                <element signature="e#3689#3696#0" expanded="true" />
+                <element signature="e#895#902#0" expanded="true" />
+                <element signature="e#3453#3460#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,10 +161,10 @@
         <option value="$PROJECT_DIR$/src/main/java/domain/Jogada.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Jogador.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Carta.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Mao.java" />
         <option value="$PROJECT_DIR$/src/test/java/CartaUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/mock/CartaMock.java" />
         <option value="$PROJECT_DIR$/READ.ME" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Mao.java" />
       </list>
     </option>
   </component>
@@ -483,7 +482,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/domain/Mao.java</url>
-          <line>71</line>
+          <line>65</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -552,18 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Jogador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -577,30 +564,6 @@
         <state relative-caret-position="294">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Mao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="109" column="45" lean-forward="false" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#1131#1138#0" expanded="true" />
-            <element signature="e#3689#3696#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mock/CartaMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3103">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,6 +589,42 @@
         <state relative-caret-position="63">
           <caret line="3" column="77" lean-forward="false" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Jogador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mock/CartaMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3103">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Mao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="117" column="52" lean-forward="true" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#895#902#0" expanded="true" />
+            <element signature="e#3453#3460#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

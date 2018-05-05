@@ -28,12 +28,6 @@ public class Mao {
             return null;
         }
 
-        Carta carta1 = mao.getCartas().get(0);
-        Carta carta2 = mao.getCartas().get(1);
-        Carta carta3 = mao.getCartas().get(2);
-        Carta carta4 = mao.getCartas().get(3);
-        Carta carta5 = mao.getCartas().get(4);
-
         //Verifica jogada RoyalFlush
         if(isRoyalFlush(mao.getCartas())){
             return Jogada.ROYAL_FLUSH;
