@@ -3,11 +3,12 @@ package domain;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
-public class Carta {
+public class Mao {
 
-    private String valor;
-    private Naipe naipe;
+    List<Carta> cartas;
 
 }

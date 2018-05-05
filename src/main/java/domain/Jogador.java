@@ -5,9 +5,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Carta {
+public class Jogador {
 
-    private String valor;
-    private Naipe naipe;
+    private String nome;
+    private Mao mao;
 
 }
