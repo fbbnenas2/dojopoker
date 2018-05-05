@@ -13,4 +13,9 @@ public class Carta {
     public Carta(String valor) {
         this.valor = valor;
     }
+
+    public Carta() {
+
+    }
+
 }

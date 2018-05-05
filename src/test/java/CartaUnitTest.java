@@ -68,5 +68,20 @@ public class CartaUnitTest {
 
     }
 
+    @Test
+    public void testQuadra() {
+        Mao mao = new Mao();
+
+        List<Carta> cartasMao2 = new ArrayList<Carta>();
+        cartasMao2.add(CartaMock.criarCarta2C());
+        cartasMao2.add(CartaMock.criarCarta2D());
+        cartasMao2.add(CartaMock.criarCarta2D());
+        cartasMao2.add(CartaMock.criarCarta2D());
+        cartasMao2.add(CartaMock.criarCartaJD());
+
+        mao.setCartas(cartasMao2);
+
+        Assert.assertEquals(mao.isQuadra(mao.getCartas()), 4);
+    }
 
 }

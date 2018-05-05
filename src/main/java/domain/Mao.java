@@ -5,6 +5,7 @@ import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Getter
 @Setter
@@ -15,6 +16,9 @@ public class Mao {
 
     public Mao(List<Carta> cartas) {
         this.cartas = cartas;
+    }
+
+    public Mao() {
     }
 
     //Método para retornar a jogada formada pela mão
@@ -59,12 +63,38 @@ public class Mao {
             return false;
         }
 
-        /*switch (cartas) {
-            case cartas.contains(new)
-        }
+        isStraight(cartas);
 
-        return cartas.containsAll(cartasNecessarias);*/return false;
+        return isStraight(cartas);
     }
+
+    public Boolean isQuadra(List<Carta> cartas){
+        Boolean isQuadra = false;
+        int contador = 0;
+
+        final Carta carta1 = cartas.get(0);
+        int tamanho1 = cartas.stream().filter(c -> {return c.getValor().equals(carta1.getValor());}).collect(Collectors.toList()).size();
+
+        Carta carta2 = cartas.get(1);
+        int tamanho2 = cartas.stream().filter(c -> { return c.getValor().equals(carta2.getValor());}).collect(Collectors.toList()).size();
+
+        System.out.println(tamanho1);
+        System.out.println(tamanho2);
+
+
+//        for(Carta cartaA : cartas) {
+//            for(Carta cartaB : cartas) {
+//                if(cartaA.getValor().equals(cartaB.getValor())){
+//                    contador++;
+//                }
+//            }
+//        }
+
+
+        return tamanho1 == 4 || tamanho2 == 4;
+    }
+
+
 
     private boolean isFlush(List<Carta> cartas) {
         boolean naipesIguais = true;
@@ -78,6 +108,76 @@ public class Mao {
             }
         }
         return naipesIguais;
+    }
+
+    private Boolean isStraight(List<Carta> cartas) {
+        List<Carta> cartasNecessarias = new ArrayList<Carta>();
+
+        if(cartas.contains(new Carta("2"))) {
+            cartasNecessarias.add(new Carta("3"));
+            cartasNecessarias.add(new Carta("4"));
+            cartasNecessarias.add(new Carta("5"));
+            cartasNecessarias.add(new Carta("6"));
+
+            return true;
+        }else if(cartas.contains(new Carta("3"))) {
+            cartasNecessarias.add(new Carta("4"));
+            cartasNecessarias.add(new Carta("5"));
+            cartasNecessarias.add(new Carta("6"));
+            cartasNecessarias.add(new Carta("7"));
+
+            return true;
+        }else if(cartas.contains(new Carta("4"))) {
+            cartasNecessarias.add(new Carta("5"));
+            cartasNecessarias.add(new Carta("6"));
+            cartasNecessarias.add(new Carta("7"));
+            cartasNecessarias.add(new Carta("8"));
+
+            return true;
+        }else if(cartas.contains(new Carta("5"))) {
+            cartasNecessarias.add(new Carta("6"));
+            cartasNecessarias.add(new Carta("7"));
+            cartasNecessarias.add(new Carta("8"));
+            cartasNecessarias.add(new Carta("9"));
+
+            return true;
+        }else if(cartas.contains(new Carta("6"))) {
+            cartasNecessarias.add(new Carta("7"));
+            cartasNecessarias.add(new Carta("8"));
+            cartasNecessarias.add(new Carta("9"));
+            cartasNecessarias.add(new Carta("10"));
+
+            return true;
+        }else if(cartas.contains(new Carta("7"))) {
+            cartasNecessarias.add(new Carta("8"));
+            cartasNecessarias.add(new Carta("9"));
+            cartasNecessarias.add(new Carta("10"));
+            cartasNecessarias.add(new Carta("J"));
+
+            return true;
+        }else if(cartas.contains(new Carta("8"))) {
+            cartasNecessarias.add(new Carta("9"));
+            cartasNecessarias.add(new Carta("10"));
+            cartasNecessarias.add(new Carta("J"));
+            cartasNecessarias.add(new Carta("Q"));
+
+            return true;
+        }else if(cartas.contains(new Carta("9"))) {
+            cartasNecessarias.add(new Carta("10"));
+            cartasNecessarias.add(new Carta("J"));
+            cartasNecessarias.add(new Carta("Q"));
+            cartasNecessarias.add(new Carta("K"));
+
+            return true;
+        }else if(cartas.contains(new Carta("10"))) {
+            cartasNecessarias.add(new Carta("J"));
+            cartasNecessarias.add(new Carta("Q"));
+            cartasNecessarias.add(new Carta("K"));
+            cartasNecessarias.add(new Carta("A"));
+
+            return true;
+        }
+        return false;
     }
 
 }
