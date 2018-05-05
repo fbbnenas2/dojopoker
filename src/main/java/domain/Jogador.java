@@ -10,4 +10,12 @@ public class Jogador {
     private String nome;
     private Mao mao;
 
+    public Jogador(String nome) {
+        this.nome = nome;
+    }
+
+    public Jogador(){
+
+    }
+
 }

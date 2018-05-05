@@ -10,4 +10,7 @@ public class Carta {
     private String valor;
     private Naipe naipe;
 
+    public Carta(String valor) {
+        this.valor = valor;
+    }
 }
