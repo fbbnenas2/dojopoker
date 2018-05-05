@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab74d5dd-f77a-4456-98d3-fd85eb3d0179" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Mao.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Mao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mock/CartaMock.java" afterPath="$PROJECT_DIR$/src/main/java/mock/CartaMock.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CartaUnitTest.java" afterPath="$PROJECT_DIR$/src/test/java/CartaUnitTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/READ.ME" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,7 +33,7 @@
       <file leaf-file-name="CartaUnitTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CartaUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1076">
+            <state relative-caret-position="131">
               <caret line="122" column="47" lean-forward="false" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,10 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartaMock.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="READ.ME" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/READ.ME">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="77" lean-forward="false" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartaMock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mock/CartaMock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2186">
+            <state relative-caret-position="-3103">
               <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -156,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/main/java/domain/Mao.java" />
         <option value="$PROJECT_DIR$/src/test/java/CartaUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/mock/CartaMock.java" />
+        <option value="$PROJECT_DIR$/READ.ME" />
       </list>
     </option>
   </component>
@@ -188,46 +198,6 @@
             <path>
               <item name="poker" type="b2602c69:ProjectViewProjectNode" />
               <item name="poker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -610,23 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CartaUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1076">
-          <caret line="122" column="47" lean-forward="false" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#356#363#0" expanded="true" />
-            <element signature="e#764#771#0" expanded="true" />
-            <element signature="e#1399#1406#0" expanded="true" />
-            <element signature="e#1807#1814#0" expanded="true" />
-            <element signature="e#2412#2419#0" expanded="true" />
-            <element signature="e#2889#2896#0" expanded="true" />
-            <element signature="e#3366#3373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/Mao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -643,11 +596,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mock/CartaMock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2186">
+        <state relative-caret-position="-3103">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CartaUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="122" column="47" lean-forward="false" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#363#0" expanded="true" />
+            <element signature="e#764#771#0" expanded="true" />
+            <element signature="e#1399#1406#0" expanded="true" />
+            <element signature="e#1807#1814#0" expanded="true" />
+            <element signature="e#2412#2419#0" expanded="true" />
+            <element signature="e#2889#2896#0" expanded="true" />
+            <element signature="e#3366#3373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/READ.ME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="77" lean-forward="false" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
