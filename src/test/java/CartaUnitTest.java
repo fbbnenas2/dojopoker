@@ -116,4 +116,20 @@ public class CartaUnitTest {
         Assert.assertTrue(mao.isTrinca(mao.getCartas()));
     }
 
+    @Test
+    public void testFlush() {
+        Mao mao = new Mao();
+
+        List<Carta> cartasMao2 = new ArrayList<Carta>();
+        cartasMao2.add(CartaMock.criarCarta2C());
+        cartasMao2.add(CartaMock.criarCarta5C());
+        cartasMao2.add(CartaMock.criarCarta8C());
+        cartasMao2.add(CartaMock.criarCartaAC());
+        cartasMao2.add(CartaMock.criarCarta10C());
+
+        mao.setCartas(cartasMao2);
+
+        Assert.assertTrue(mao.isFlush(mao.getCartas()));
+    }
+
 }

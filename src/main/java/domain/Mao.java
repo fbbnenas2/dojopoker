@@ -107,7 +107,7 @@ public class Mao {
         return tamanho1 == 2 || tamanho2 == 2;
     }
 
-    private boolean isFlush(List<Carta> cartas) {
+    public boolean isFlush(List<Carta> cartas) {
         boolean naipesIguais = true;
 
         for(Carta cartaa: cartas){

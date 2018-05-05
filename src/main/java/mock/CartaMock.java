@@ -5,22 +5,22 @@ import domain.Naipe;
 
 public class CartaMock {
 
-    private static String VALOR_A = "A";
-    private static String VALOR_2 = "2";
-    private static String VALOR_3 = "3";
-    private static String VALOR_5 = "5";
-    private static String VALOR_6 = "6";
-    private static String VALOR_7 = "7";
-    private static String VALOR_8 = "8";
-    private static String VALOR_9 = "9";
-    private static String VALOR_10 = "10";
-    private static String VALOR_J = "J";
-    private static String VALOR_Q = "Q";
-    private static String VALOR_K = "K";
-    private static Naipe NAIPE_H = Naipe.H;
-    private static Naipe NAIPE_D = Naipe.D;
-    private static Naipe NAIPE_S = Naipe.S;
-    private static Naipe NAIPE_C = Naipe.C;
+    private static final String VALOR_A = "A";
+    private static final String VALOR_2 = "2";
+    private static final String VALOR_3 = "3";
+    private static final String VALOR_5 = "5";
+    private static final String VALOR_6 = "6";
+    private static final String VALOR_7 = "7";
+    private static final String VALOR_8 = "8";
+    private static final String VALOR_9 = "9";
+    private static final String VALOR_10 = "10";
+    private static final String VALOR_J = "J";
+    private static final String VALOR_Q = "Q";
+    private static final String VALOR_K = "K";
+    private static final Naipe NAIPE_H = Naipe.H;
+    private static final Naipe NAIPE_D = Naipe.D;
+    private static final Naipe NAIPE_S = Naipe.S;
+    private static final Naipe NAIPE_C = Naipe.C;
 
     //Criando cartas com valores fixos - Mock para teste unitário
     public static Carta criarCarta5H() {
@@ -163,6 +163,14 @@ public class CartaMock {
         Carta carta = new Carta();
         carta.setValor(VALOR_2);
         carta.setNaipe(NAIPE_D);
+
+        return carta;
+    }
+
+    public static Carta criarCarta10C() {
+        Carta carta = new Carta();
+        carta.setValor(VALOR_10);
+        carta.setNaipe(NAIPE_C);
 
         return carta;
     }
