@@ -81,7 +81,7 @@ public class CartaUnitTest {
 
         mao.setCartas(cartasMao2);
 
-        Assert.assertEquals(mao.isQuadra(mao.getCartas()), 4);
+        Assert.assertTrue(mao.isQuadra(mao.getCartas()));
     }
 
 }

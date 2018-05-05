@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab74d5dd-f77a-4456-98d3-fd85eb3d0179" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/poker.iml" afterPath="$PROJECT_DIR$/poker.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Carta.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Carta.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Mao.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Mao.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CartaUnitTest.java" afterPath="$PROJECT_DIR$/src/test/java/CartaUnitTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartaUnitTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CartaUnitTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CartaUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="78" column="49" lean-forward="true" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#356#363#0" expanded="true" />
@@ -62,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParentRunner.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParentRunner.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="205" column="0" lean-forward="false" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+            <state relative-caret-position="145">
+              <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -176,8 +170,8 @@
         <option value="$PROJECT_DIR$/src/main/java/domain/Jogada.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Jogador.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Carta.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CartaUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Mao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CartaUnitTest.java" />
       </list>
     </option>
   </component>
@@ -410,6 +404,12 @@
     <history-entry file="CartaUnitTest_testQuadra - 2018.05.05 at 11h 45m 24s.xml">
       <configuration name="CartaUnitTest.testQuadra" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CartaUnitTest_testQuadra - 2018.05.05 at 11h 47m 10s.xml">
+      <configuration name="CartaUnitTest.testQuadra" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartaUnitTest_testQuadra - 2018.05.05 at 11h 48m 24s.xml">
+      <configuration name="CartaUnitTest.testQuadra" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -455,6 +455,15 @@
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>mao.isQuadra(mao.getCartas())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -530,6 +539,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/Mao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -546,8 +571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CartaUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="78" column="49" lean-forward="true" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#356#363#0" expanded="true" />
@@ -556,22 +581,6 @@
             <element signature="e#1807#1814#0" expanded="true" />
             <element signature="e#2412#2419#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="205" column="0" lean-forward="false" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
